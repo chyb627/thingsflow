@@ -138,7 +138,7 @@ export const IssueListScreen = () => {
   // 이슈번호, 이슈제목, 작성자, 작성일, 코멘트수
   // Organization Name / Repository Name
   return (
-    <View style={{ flex: 1, paddingBottom: bottomSpace }}>
+    <View style={{ flex: 1 }}>
       <Header>
         <Header.Group>
           <Header.Title title="Organization Name / Repository Name" />

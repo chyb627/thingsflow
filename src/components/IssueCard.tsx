@@ -1,7 +1,7 @@
 /* eslint-disable react-native/no-inline-styles */
 import dayjs from 'dayjs';
 import React from 'react';
-import { Pressable, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import { Margin } from './Margin';
 
 export const IssueCard: React.FC<{
