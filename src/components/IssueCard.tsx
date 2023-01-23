@@ -22,7 +22,7 @@ export const IssueCard: React.FC<{
           <Text style={{ fontSize: 12 }}>{`작성자: ${issueWriter}, 작성일: ${writeDate}`}</Text>
         </View>
 
-        <View style={{ flex: 1 }}>
+        <View style={{ flex: 1, justifyContent: 'center' }}>
           <Text style={{ textAlign: 'right' }}>{`코멘트: ${issuecomments}`}</Text>
         </View>
       </View>
